@@ -1,98 +1,64 @@
-以下是你提到的代码风格的Markdown示例：
+#### JavaScript Code Style
 
-# Code Style Guidelines
+```markdown
+1. **Indentation**: Use four spaces for indentation, not tabs.
 
-## Titles
+2. **Naming Conventions**:
+   - Use camelCase for variable and function names, such as `myVariableName`.
+   - Use PascalCase for class names, like `MyClassName`.
+   - Constants should be in all uppercase with underscores, e.g., `MY_CONSTANT`.
 
-Use hashtags (#) to denote different levels of titles:
+3. **Semicolons**: Terminate each statement with a semicolon to prevent unexpected errors.
 
-```
-# Heading 1
-## Heading 2
-```
+4. **Variable Declarations**: Use `const` to declare immutable variables and `let` for mutable variables.
 
-## Lists
+5. **Functions**:
+   - Function declarations should use the `function` keyword, like `function myFunction() {}`.
+   - Use arrow functions `() => {}` for defining anonymous functions or callbacks.
 
-Use asterisks (*), plus (+), or minus (-) to create unordered lists and numbers with periods for ordered lists:
+6. **Comments**: Use comments to explain the purpose and functionality of the code, especially in complex logic or significant features.
 
-Unordered List:
-```
-* Item 1
-* Item 2
-```
+7. **Code Blocks**: Use curly braces `{}` to explicitly define code blocks, even for single-line statements.
 
-Ordered List:
-```
-1. Item 1
-2. Item 2
+8. **Strings**: In JavaScript, use either single quotes or double quotes to create strings.
 ```
 
-## Code Blocks
+#### HTML Code Style
 
-Create code blocks using three backticks (\```), and specify the code language on the line before the code block:
+```markdown
+1. **Indentation**: Use four spaces for indentation to enhance readability.
 
-```javascript
-function example() {
-  // Code example
-}
+2. **Lowercase Tags**: HTML tags should be in lowercase, e.g., `<div>` instead of `<DIV>`.
+
+3. **Attribute Quotes**: Enclose HTML attribute values in double quotes, like `<a href="https://www.example.com">`.
+
+4. **Self-Closing Tags**: For self-closing tags like `<img>` and `<br>`, you can omit the closing slash, but including it is also acceptable, e.g., `<img src="image.jpg">` or `<br/>`.
+
+5. **Abbreviations**: Avoid using abbreviations for HTML tags; use the full tag name, like `<img>` instead of `<img />`.
+
+6. **Comments**: Use `<!-- Comment Content -->` tags to add comments explaining the purpose or special cases in the code.
 ```
 
-## Emphasis and Bold
+#### CSS Code Style
 
-Use single asterisks or underscores for emphasis and double asterisks or underscores for bold text:
+```markdown
+1. **Indentation**: Use four spaces for indentation to improve readability.
 
-Emphasis:
-```
-*Emphasized text* or _Emphasized text_
-```
+2. **Naming Conventions**: Use meaningful class and ID names, following naming conventions like BEM (Block Element Modifier).
 
-Bold:
-```
-**Bold text** or __Bold text__
-```
+3. **Selectors**: Avoid excessive selector nesting, and keep selectors concise.
 
-## Quotes
+4. **Properties and Values**: Separate each property and value with a colon, and separate declarations with a semicolon, e.g.:
+   ```css
+   .my-class {
+     background-color: #ffffff;
+     color: #333333;
+   }
+   ```
 
-Use the greater-than sign (>) to create blockquotes:
+5. **Comments**: Use comments to explain the purpose and usage of CSS rules and any special considerations.
 
-```
-> This is an example quote.
-```
-
-## Links
-
-Create links using square brackets and parentheses:
-
-```
-[Link Text](URL)
+6. **Cascade Order**: Follow the cascade order, defining general styles first and gradually adding more specific styles.
 ```
 
-## Inserting Images
-
-To insert images, add an exclamation mark before the link syntax:
-
-```
-![Alt Text](Image URL)
-```
-
-## Horizontal Lines
-
-Use three hyphens (-), asterisks (*), or underscores (_) for horizontal lines:
-
-```
----
-```
-
-## Italics
-
-Italicize text using a single asterisk or underscore:
-
-```
-*Italicized text* or _Italicized text_
-```
-
-## Line Breaks
-
-Insert line breaks by adding two spaces followed by an Enter key:
-
-These guidelines provide a basis for clear and readable documentation. Depending on your project's needs, you can incorporate additional Markdown elements and styles.
+Feel free to copy and paste this Markdown text into your Markdown editor for viewing and editing.
