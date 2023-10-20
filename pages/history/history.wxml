@@ -1,0 +1,5 @@
+<view class="content">
+    <block wx:for="{{historyRecords}}" wx:for-item="log" wx:key="id">
+        <view class="item">{{log.content}}</view>
+    </block>
+</view>
