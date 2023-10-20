@@ -1,4 +1,4 @@
-#### JavaScript Code Style
+ ==JavaScript Code Style==
 
 1. **Indentation**: Use four spaces for indentation, not tabs.
 
@@ -22,7 +22,7 @@
 8. **Strings**: In JavaScript, use either single quotes or double quotes to create strings.
 
 
-#### HTML Code Style
+==HTML Code Style==
 
 1. **Indentation**: Use four spaces for indentation to enhance readability.
 
@@ -37,7 +37,7 @@
 6. **Comments**: Use `<!-- Comment Content -->` tags to add comments explaining the purpose or special cases in the code.
 
 
-#### CSS Code Style
+==CSS Code Style==
 
 1. **Indentation**: Use four spaces for indentation to improve readability.
 
