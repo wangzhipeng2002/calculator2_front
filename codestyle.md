@@ -21,6 +21,7 @@
 
 8. **Strings**: In JavaScript, use either single quotes or double quotes to create strings.
 
+<br>
 
 ==HTML Code Style==
 
@@ -35,6 +36,8 @@
 5. **Abbreviations**: Avoid using abbreviations for HTML tags; use the full tag name, like `<img>` instead of `<img />`.
 
 6. **Comments**: Use `<!-- Comment Content -->` tags to add comments explaining the purpose or special cases in the code.
+
+<br>
 
 
 ==CSS Code Style==
