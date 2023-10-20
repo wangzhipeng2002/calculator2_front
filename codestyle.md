@@ -1,6 +1,5 @@
 #### JavaScript Code Style
 
-```markdown
 1. **Indentation**: Use four spaces for indentation, not tabs.
 
 2. **Naming Conventions**:
@@ -21,11 +20,10 @@
 7. **Code Blocks**: Use curly braces `{}` to explicitly define code blocks, even for single-line statements.
 
 8. **Strings**: In JavaScript, use either single quotes or double quotes to create strings.
-```
+
 
 #### HTML Code Style
 
-```markdown
 1. **Indentation**: Use four spaces for indentation to enhance readability.
 
 2. **Lowercase Tags**: HTML tags should be in lowercase, e.g., `<div>` instead of `<DIV>`.
@@ -37,11 +35,10 @@
 5. **Abbreviations**: Avoid using abbreviations for HTML tags; use the full tag name, like `<img>` instead of `<img />`.
 
 6. **Comments**: Use `<!-- Comment Content -->` tags to add comments explaining the purpose or special cases in the code.
-```
+
 
 #### CSS Code Style
 
-```markdown
 1. **Indentation**: Use four spaces for indentation to improve readability.
 
 2. **Naming Conventions**: Use meaningful class and ID names, following naming conventions like BEM (Block Element Modifier).
@@ -54,11 +51,3 @@
      background-color: #ffffff;
      color: #333333;
    }
-   ```
-
-5. **Comments**: Use comments to explain the purpose and usage of CSS rules and any special considerations.
-
-6. **Cascade Order**: Follow the cascade order, defining general styles first and gradually adding more specific styles.
-```
-
-Feel free to copy and paste this Markdown text into your Markdown editor for viewing and editing.
